@@ -1,0 +1,18 @@
+{
+  "name": "bible-ref-finder",
+  "version": "1.0.0",
+  "description": "Finds Bible verse references in blobs of text.",
+  "main": "./js/finder.js",
+  "scripts": {
+    "pretest": "test ts/*_tests.ts",
+    "prepublish": "tsc",
+    "test": "mocha js/*_tests.js"
+  },
+  "files": "./js",
+  "author": "Joshua Poehls <joshua@poehls.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "typescript": "^1.7.5"
+  }
+}
