@@ -36,6 +36,20 @@ if (anyFound) {
 }
 ```
 
+**Work with the reference**
+
+Here are the properties you'll find on the ref results:
+
+```
+// ref = "Gen 1:2-3:4"
+
+ref.bookId;       // The OSIS book ID. E.g., Gen
+ref.startChapter; // 1
+ref.startVerse;   // 2
+ref.endChapter;   // 3
+ref.endVerse;     // 4
+```
+
 ## Compile using TypeScript
 
 `tsc` or `tsc --watch`
