@@ -32,7 +32,7 @@ export class RefFinder {
         
         var i = 0;
         while (i < words.length) {
-            var word = words[i];
+            var word = words[i]; //hello
             console.log(`word, words[${i}] is "${word}"`);
             i++;
             
